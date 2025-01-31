@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box{
+    min-height: 60vh;
+   background-color: white;
+    /* background-color: aliceblue; */
+    max-width: 100%;
+}
+.box h1{
+    background-color: #30332e;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.text li{
+list-style: decimal;
+margin-bottom:14px ;
+}
+.box .btns{
+background-color: #58A3A9;
+padding: 20px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-bottom: 20px;
+margin-inline: 20px;
+border-radius: 10px;
+}
+.box .btns button{
+    outline: none;
+    border: none;
+    background-color: #e16330;
+    color: white;
+   padding: 9px 10px;
+   border-radius: 10px;
+   font-weight: 800;
+   font-size: 20px;
+   cursor: pointer;
+  
+}
+.box .btns button:hover{
+background-color: rgb(248, 187, 73);
+}
+.textarea{
+ 
+    /* margin: 20px 180px; */
+    border: 3px solid black;
+    border-radius: 7px;
+    padding: 8px 8px;
+    font-weight: 600;
+    margin: 20px 20px;
+   
+}
+textarea{
+    border: none;
+    resize: none;
+    outline: none;
+     /* background-color: black; */
+}
+.textarea{
+    text-align: center;
+}
+.btns select {
+    background-color: rgb(49, 48, 48);
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+ 
+}
+
+.text{
+    font-size: 17px;
+    line-height: 20px;
+    text-align: left;
+    font-weight: 500;
+    /* text-transform: capitalize; */
+    margin-bottom: 23px;
+    /* text-decoration: underline; */
+}
