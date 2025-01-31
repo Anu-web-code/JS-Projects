@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: linear-gradient(45deg,#010758,#750e9e);
+    min-height: 100vh;
+
+}
+.box{
+    background-color: white;
+    margin: 160px auto;
+    max-height: 60vh; 
+padding: 60px;
+border-radius: 13px;
+max-width: 50%;
+}
+.box h1{
+    margin-top: -40px;
+    margin-bottom: 20px;
+    display: flex;
+
+}
+.textInput{
+    text-transform: capitalize;
+    /* text-decoration:line-through; */
+}
+.box h1 img{
+    width: 40px;
+    margin-left: 10px;
+}
+.toDoList li{
+    text-transform: capitalize;
+    cursor: pointer;
+   
+}
+
+.toDoList li span{
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+  color: red;
+  font-size: 22px;
+}
+.box .input{
+    min-width:50%;
+    margin: 20px ;
+}
+.box .input input{
+    padding: 13px;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    background-color: rgb(222, 216, 216);
+    color: black;
+    font-size: 16px;
+    min-width: 70%;
+}
+.box .input button{
+    border-radius: 35px;
+    padding: 13px 25px;
+    margin-left: -50px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: rgb(246, 112, 10);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.input button:hover{
+background-color: rgb(240, 137, 58);
+}
+.box li{
+    list-style: none;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 75%;
+}
+.box li i{
+    color: gray;
+
+}
+.toDoList li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
