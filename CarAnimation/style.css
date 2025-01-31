@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sky{
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://scoutlife.org/wp-content/uploads/2019/04/skyblue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.trees{
+    width: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/031/701/non_2x/forest-scene-with-various-forest-trees-and-walkway-lane-path-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+
+}
+.track{
+    height: 70vh;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/013/079/896/small_2x/straight-road-travel-concept-illustration-png.png);
+    position: absolute;
+    width: 800vw;
+    top: 73vh;
+    background-repeat: repeat-x;
+    /* background-size: cover; */
+    animation: track 0.4s infinite linear;
+}
+.scooty{
+    background-image: url(https://www.pngall.com/wp-content/uploads/14/Cartoon-Car-PNG-Image-File.png);
+    height: 180px;
+    width: 440px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 60vh;
+   left: 330px;
+   top: 70vh;
+   animation: shake 0.6s infinite linear;
+}
+.wheel{
+    position: relative;
+
+}
+.wheel1 img{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 12.9vh;
+    left: 2.7vw;
+   animation: tyresRotate 0.4s infinite linear;
+}
+.wheel2 img{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 13vh;
+    left: 21.7vw;
+    animation: tyresRotate 0.4s infinite linear;
+}
+@keyframes tyresRotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes track{
+   100%{
+        transform:translateX(-500vw);
+    }
+}
+@keyframes shake{
+    0%{
+        transform: translateX(-5px);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+}
