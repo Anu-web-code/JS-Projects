@@ -1,5 +1,7 @@
 # JS-mini-Projects
-These mini-projects will help you enhance your knowldedge on html,css and js and gives you handon-experience/n
+These mini-projects will help you enhance your knowldedge on html,css and js and gives you handon-experience.
+
+
 Qr-Code Generator,
 Age Calculator,
 Number Conversion,
