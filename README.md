@@ -1,9 +1,10 @@
 # JS-mini-Projects
-Qr-Code Generator
-Age Calculator
-Number Conversion
-Online Text Editor
-Simple Calculator
-Weather Api
-Car Animation
-To-Do-List App
+These mini-projects will help you enhance your knowldedge on html,css and js and gives you handon-experience/n
+Qr-Code Generator,
+Age Calculator,
+Number Conversion,
+Online Text Editor,
+Simple Calculator,
+Weather Api,
+Car Animation,
+To-Do-List App.
