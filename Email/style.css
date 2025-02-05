@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    background-color: rgb(8, 8, 27);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* display: none ; */
+}
+.box{
+    background-color: rgb(8, 8, 27);
+    color: white;
+    border: 2px solid lightblue;
+margin: auto;
+/* padding: 12px; */
+min-height: 70vh;
+border-radius: 12px;
+min-width: 40vw;
+display: flex;
+flex-direction: column;
+/* align-items: center; */
+justify-content: center;
+}
+.box header h1{
+    padding: 10px;
+    font-size: 30px;
+    margin-top: -10px;
+    text-align: center;
+}
+.box main{
+    margin-top: -20px;
+}
+.box main div{
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.box main div input{
+padding: 8px;
+width: 100%;
+border: none;
+outline: none;
+background-color: white;
+    color: black;
+/* color: white; */
+}
+ .inside{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    padding: 6px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.inside i{
+    color: green;
+}
+.inside span{
+    color: red;
+}
+.emailErr,.pErr,.nErr{
+    color: green;
+    display: none;
+}
+ .signUpBtn{
+    text-align: center;
+   /* margin: auto 30px; */
+   width: 80%;
+   margin-inline: 30px;
+   padding: 8px ;
+   font-size: 18px;
+   color: white;
+   background-color: rgb(23, 147, 196);
+   font-weight: bold;
+   border: none;
+   outline: none;
+   border-radius: 5px;
+   cursor: pointer;
+ 
+}
+.signUpBtn:hover{
+    background-color: rgb(50, 139, 174);
+}
+.box footer h3{
+    padding: 12px;
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+}
+.box footer h3 a{
+    color: aliceblue;
+    text-decoration: none;
+}
+/* Display Section */
+.display {
+    /* background-color: #ffffff;
+     */
+     background: linear-gradient(45deg,pink,purple);
+    padding: 20px;
+    padding-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-inline: 30vw;
+    width: 380px;
+    min-height: 280px;
+    text-align: left;
+    color: white;
+}
+/* .display span{
+    background: linear-gradient(45deg,pink,purple);
+} */
+.display h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 600;
+}
+.display h2{
+    padding-top: 20px;
+}
+.display span {
+    font-size: 16px;
+    color: #121111;
+    font-weight: 400;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+/* Add some spacing between each detail */
+.display h3 + h3 {
+    margin-top: 10px;
+}
+
+/* Background color and border for each value */
+.display span.nameValue,
+.display span.emailValue,
+.display span.passVal {
+    padding: 5px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    color: #333;
+    width: auto;
+    display: inline-block;
+}
+
+/* Styling for individual values */
+.display .nameValue {
+    background-color: #e8f0fe;
+}
+
+.display .emailValue {
+    background-color: #e0f7fa;
+}
+
+.display .passVal {
+    background-color: #ffe0b2;
+}

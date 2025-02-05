@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        
+            <div class="box">
+                <header class="signupHeader">
+                    <h1>SignUp</h1>
+                </header>
+                <!-- <i class="fa-solid fa-xmark"></i> -->
+                <main>
+                    <div>
+                        <label for="name">FullName</label>
+                        <span class="inside nameinp">
+                            <input type="text" placeholder="Enter full name" id="name" required>
+                         
+                        </span>
+                       <span class="nErr">This is required</span>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <span class="inside emailinp">
+                            <input type="email " placeholder="Enter email" id="email" required>
+                            <!-- <i class="fa-solid fa-check" ></i> -->
+                        </span>
+                        <span class="emailErr">This is required</span>
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <span class="inside passwordinp">
+                            <input type="password" placeholder="at least 8 characters" minlength="8" required id="password">
+                            <!-- <i class="fa-solid fa-check"></i> -->
+                        </span>
+                        <span class="pErr">This is required</span>
+                    </div>
+                    <button class="signUpBtn">CreateAccount</button>
+                </main>
+
+                <footer>
+                    <h3>Already have an account?<a href="" >Login</a></h3>
+                </footer>
+        </div>
+      
+        
+    </div>
+
+
+
+<div class="display">
+    <h3>Name: <span class="nameValue"></span></h3>
+    <h3>Email:<span class="emailValue"></span></h3>
+    
+    <h2>Successfully created!</h2>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
