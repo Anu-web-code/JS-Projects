@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.body{
+    background-image: url("https://i.pinimg.com/originals/04/6a/c5/046ac5bc0f6a62e03f1c4d781153f516.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+.body header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+.body header button{
+    background: none;
+    border: 2px solid white;
+    border-radius: 16px;
+    color: white;
+    padding: 12px 15px;
+    font-size: 19px;
+}
+.body main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
+    font-size: 30px;
+    font-weight: 900;
+}
+.body main .search input{
+    background: none;
+    border: none;
+    outline: none;
+}
+.body main .search button {
+ 
+   background: linear-gradient(45deg,rgb(11, 28, 11),rgb(35, 217, 66));
+   padding: 10px 13px;
+   border: none;
+   border-radius: 12px;
+   cursor: pointer;
+   color: white;
+
+
+}
+.body main p{
+    font-size: 17px;
+    padding: 12px;
+    padding-bottom: 12px;
+}
+.body main .search {
+    background-color: white;
+    width: 450px;
+    display: flex;
+    padding: 12px 14px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 17px;
+}
+.destination{
+    height: 70vh;
+
+}
+.destination h1{
+    font-family: cursive;
+}
+.gallery{
+    color: white;
+    height: 70vh;
+}
+.gallery h1{
+    font-family: cursive;
+}
+.images .row  img{
+    position: relative;
+  transition: transform 0.3s ease;
+  height: 220px;
+  width: 220px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.images .row .img .col-md-4 h1{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: Adds shadow to text for better visibility */
+    margin: 0;
+}
+.images .row img:hover{
+    transform: scale(1.2); 
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.offer-section{
+    height: 70vh;
+    background-image: url("https://wallpaperaccess.com/full/359648.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+.offer-section .offer  {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+   color: aliceblue;
+   padding: 18px;
+   height: 200px;
+   width: 100%;
+   justify-content: space-between;
+}
+.offer-section .offer button{
+border-radius: 16px;
+font-size: 18px;
+background: none;
+color: white;
+border: 2px solid white;
+padding: 12px 16px;
+outline: none;
+}
+.review-section{
+    height: 60vh;
+    background-color: aliceblue;
+}
+footer{
+    height: 60vh;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(45deg,rgb(46, 38, 46),rgb(97, 3, 97),rgb(167, 167, 205));
+    color: white;
+   
+}
+footer div{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+   
+}
+
+
+
